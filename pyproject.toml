@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gcp-recommendation-sample"
+version = "0.1.0"
+description = ""
+authors = ["T.Y. <toshihiro.engineer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gcp_recommendation_sample"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.0.1"
+numpy = "^1.24.3"
+sklearn = "^0.0.post4"
+matplotlib = "^3.7.1"
+seaborn = "^0.12.2"
+plotly = "^5.14.1"
+optuna = "^3.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
